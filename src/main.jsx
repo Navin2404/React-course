@@ -7,6 +7,5 @@ import Course from './Course.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <Course/>
   </StrictMode>,
 )
