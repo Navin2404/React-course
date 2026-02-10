@@ -11,14 +11,13 @@ import navv from "./assets/navv.jpeg";
 function App() {
   return (
     <>
-    {/* <Navbar /> */}
-    <Course name="Robo Automation in industry" price={400} image={robotic} rating={4} show={true}/>
-    <Course name="skin care routine and every customer must know" price="500"image={care} rating={5} show={true}/>
-    <Course name="quote of the day read and keep in mind" price="700" image={quote} rating={4} show={true}/>
-    <Course name="navin walker" price="900" image={quote} rating={3} show={true}/>
-    {/* <Footer /> */}
+      {/* <Navbar /> */}
+      <Course name="Robo Automation in industry" price={400} image={robotic} rating={4} show={true}/>
+      <Course name="skin care routine and every customer must know" price="500"image={care} rating={5} show={true}/>
+      <Course name="quote of the day read and keep in mind" price="700" image={quote} rating={4} show={true}/>
+      <Course name="navin walker" price="900" image={quote} rating={3} show={true}/>
+      {/* <Footer /> */}
     </>
-    
   );
 }
 
