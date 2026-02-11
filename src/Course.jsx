@@ -1,6 +1,5 @@
 import quote from "./assets/quote.png";
 
-
     function Course(props){
         return (
             <div className="card">
