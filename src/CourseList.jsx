@@ -9,32 +9,36 @@ function CourseList(){
         {
             id: 1,
             name: "routine",
-            price: "499",
+            price: 499,
             image: care,
             rating: 5
         },
         {
             id:2,
             name: "quote",
-            price: "999",
+            price: 999,
             image: quote,
             rating: 4
         },
         {
             id:3,
             name: "robotic",
-            price: "766",
+            price: 766,
             image: robotic,
             rating: 2
         },
         {
             id:4,
             name: "tech",
-            price: "333",
+            price: 333,
             image: robotic,
             rating: 2
         }
     ]
+    
+    courses.sort((x,y)=> y.price - x.price)
+
+    // const vfmCourses = course.filter((course)=> course.price<500)
     
     const coursesList = courses.map((course,index) => (
         <Course 
@@ -51,5 +55,4 @@ function CourseList(){
         </>
     );
 }
-
 export default CourseList;
